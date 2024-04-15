@@ -13,7 +13,7 @@ import {
   Icon,
 } from "@/pages/Home/styles";
 import avatarDefault from "@/assets/avatar02.png";
-import { Input } from "@/components/forms/index";
+import { Input } from "@/components/forms/input/index";
 
 export default function Home() {
   return (

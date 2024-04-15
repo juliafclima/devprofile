@@ -6,7 +6,7 @@ import { Colors } from "@/types/colors";
 
 export const Container = styled.View`
   flex: 1;
-  background-color: ${colors.black};
+  background-color: ${colors.dark};
 `;
 
 export const Header = styled.View`
