@@ -1,14 +1,19 @@
-import React from "react";
-import { ScrollView } from "react-native";
+import React, { FunctionComponent } from "react";
+import { TouchableOpacityProps } from "react-native";
 
-import { Container } from "@/pages/SignIn/styles";
+import { Container, Title } from "@/components/forms/button/styles";
 
-export default function Button() {
-  return (
-    <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{flex: 1}}>
-      <Container>
-
-      </Container>
-    </ScrollView>
-  );
+interface ButtonProps extends TouchableOpacityProps {
+  title: string;
 }
+
+export const Button: FunctionComponent<ButtonProps> = ({
+  title,
+  ...otherProps
+}) => {
+  return (
+    <Container {...otherProps}>
+      <Title>{title}</Title>
+    </Container>
+  );
+};
