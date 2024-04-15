@@ -10,9 +10,10 @@ import {
   UserInfoDetail,
   UserGreeting,
   UserName,
-  Icon
+  Icon,
 } from "@/pages/Home/styles";
 import avatarDefault from "@/assets/avatar02.png";
+import { Input } from "@/components/forms/index";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
         </UserWrapper>
         <></>
       </Header>
+
+      <Input placeholder="oi" />
     </Container>
   );
 }

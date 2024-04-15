@@ -1,9 +1,4 @@
-import styled from "styled-components/native";
-import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
-
-import { colors, fonts } from "@/global/styles/theme";
-
-interface Colors {
+export interface Colors {
   black: string;
   white: string;
   primary: string;
