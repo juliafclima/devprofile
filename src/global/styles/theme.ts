@@ -27,6 +27,11 @@ export const colors = {
 
   gray: {
     500: "#a8a8b3",
-    600: "#29292e", 
+    800: "#29292e",
   },
+};
+
+export const fonts = {
+  regular: 500,
+  bold: 700,
 };
